@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+env/
+venv/
+
+# Dados brutos e binários pesados (não versionar)
+data/raw_fits/
+data/processed_patches/
+*.fits
+*.fits.gz
+*.npy
+
+# Checkpoints e pesos
+checkpoints/
+*.pth
+*.pt
+*.safetensors
+
+# IDEs e Sistema
+.spyproject/
+.vscode/
+.idea/
+*.log
+.DS_Store
